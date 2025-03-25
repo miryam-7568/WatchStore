@@ -1,0 +1,67 @@
+M:\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.GeneratedMSBuildEditorConfig.editorconfig
+M:\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.AssemblyInfoInputs.cache
+M:\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.AssemblyInfo.cs
+M:\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.csproj.CoreCompileInputs.cache
+M:\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.MvcApplicationPartsAssemblyInfo.cache
+M:\WatchStore\WatchStore\bin\Debug\net9.0\appsettings.Development.json
+M:\WatchStore\WatchStore\bin\Debug\net9.0\appsettings.json
+M:\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.staticwebassets.runtime.json
+M:\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.staticwebassets.endpoints.json
+M:\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.exe
+M:\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.deps.json
+M:\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.runtimeconfig.json
+M:\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.dll
+M:\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.pdb
+M:\WatchStore\WatchStore\obj\Debug\net9.0\scopedcss\bundle\WatchStore.styles.css
+M:\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets.build.json
+M:\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets.development.json
+M:\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+M:\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets\msbuild.WatchStore.Microsoft.AspNetCore.StaticWebAssets.props
+M:\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets\msbuild.WatchStore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+M:\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets\msbuild.build.WatchStore.props
+M:\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WatchStore.props
+M:\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WatchStore.props
+M:\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets.pack.json
+M:\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+M:\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.dll
+M:\WatchStore\WatchStore\obj\Debug\net9.0\refint\WatchStore.dll
+M:\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.pdb
+M:\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.genruntimeconfig.cache
+M:\WatchStore\WatchStore\obj\Debug\net9.0\ref\WatchStore.dll
+M:\WatchStore\WatchStore\obj\Debug\net9.0\compressed\gj9j77xx8t-2ksfg9pmjp.gz
+M:\WatchStore\WatchStore\obj\Debug\net9.0\compressed\9nszfhvvpw-x3bs71473d.gz
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\bin\Debug\net9.0\appsettings.json
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.staticwebassets.runtime.json
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.staticwebassets.endpoints.json
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.exe
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.deps.json
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.runtimeconfig.json
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.dll
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\bin\Debug\net9.0\WatchStore.pdb
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.AssemblyInfo.cs
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\scopedcss\bundle\WatchStore.styles.css
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\compressed\gj9j77xx8t-2ksfg9pmjp.gz
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets\msbuild.WatchStore.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets\msbuild.WatchStore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets\msbuild.build.WatchStore.props
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WatchStore.props
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WatchStore.props
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.dll
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\refint\WatchStore.dll
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.pdb
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\WatchStore.genruntimeconfig.cache
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\ref\WatchStore.dll
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\compressed\9nszfhvvpw-s4b14wlcpv.gz
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\compressed\w5ed8cid1o-auxf6uijhi.gz
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\compressed\m8w4bqpieh-zgop4naohp.gz
+C:\Users\PC\Documents\מרימי\מסלול\web api\WatchStore\WatchStore\obj\Debug\net9.0\compressed\p4i6rq1g12-sk033703ry.gz

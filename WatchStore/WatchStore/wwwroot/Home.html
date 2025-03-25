@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="home.js"></script>
+    <meta charset="utf-8" />
+    <title>watch store</title>
+</head>
+<body dir="rtl">
+    <div style="display: flex; gap: 20px;">
+        <div>
+            <label for="name">שם משתמש</label>
+            <input type="text" id="name" /> <br />
+            <label for="password">סיסמה</label>
+            <input type="text" id="password" /><br />
+            <button onclick="login()">התחברות</button><br />
+            <button onclick="showRegister()">משתמש חדש</button>
+        </div>
+        <div id="register" style="visibility:hidden">
+            <label for="rname">שם משתמש</label>
+            <input type="text" id="rname" /> <br />
+            <label for="rpassword">סיסמה</label>
+            <input type="text" id="rpassword" /><br />
+            <label for="firstname">שם פרטי</label>
+            <input type="text" id="firstname" /> <br />
+            <label for="lastname">שם משפחה</label>
+            <input type="text" id="lastname" /> <br />
+            <button onclick="register()">רישום</button>
+        </div>
+    </div>
+</body>
+</html>

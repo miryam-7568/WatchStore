@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="userDetails.js"></script>
+    <title>עדכון פרטים</title>
+    <link rel="stylesheet" href="userDetails.css">
+</head>
+<body>
+    <div class="container">
+        <div class="success-icon"></div>
+        <p>שלום מרים, התחברת בהצלחה, מיד נצלול פנימה.</p>
+        <p><a href="#" id="update-link">לעדכון פרטים</a></p>
+        <div id="update-details">
+            <div class="input-group">
+                <label for="email">כתובת מייל</label>
+                <input type="email" id="email" value="miriam@a.b">
+            </div>
+            <div class="input-group">
+                <label for="password">סיסמא</label>
+                <input type="password" id="password" value="••••••">
+            </div>
+            <div class="input-group">
+                <label for="firstName">שם פרטי</label>
+                <input type="text" id="firstName" value="שם">
+            </div>
+            <div class="input-group">
+                <label for="lastName">שם משפחה</label>
+                <input type="text" id="lastName" value="משפחה">
+            </div>
+            <button class="update-button">עדכן</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('update-link').addEventListener('click', function (event) {
+            event.preventDefault(); // מונע את התנהגות ברירת המחדל של הקישור
+            document.getElementById('update-details').style.display = 'block'; // מציג את פרטי העדכון
+        });
+    </script>
+</body>
+</html>

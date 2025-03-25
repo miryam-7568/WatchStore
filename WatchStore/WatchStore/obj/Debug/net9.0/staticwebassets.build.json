@@ -1,0 +1,1722 @@
+{
+  "Version": 1,
+  "Hash": "J/GvXA923/LjM9YwaP2KS2N+jndwnLhA1EJD6lja/As=",
+  "Source": "WatchStore",
+  "BasePath": "_content/WatchStore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WatchStore\\wwwroot",
+      "Source": "WatchStore",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\",
+      "BasePath": "_content/WatchStore",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-s4b14wlcpv.gz",
+      "SourceId": "WatchStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WatchStore",
+      "RelativePath": "home#[.{fingerprint=s4b14wlcpv}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\home.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1ofrolvv45",
+      "Integrity": "EcTewet/M0Mww55Ir0HbSXeKfcgjqoaV19HHeTwXCW8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\home.js"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
+      "SourceId": "WatchStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WatchStore",
+      "RelativePath": "Home#[.{fingerprint=2ksfg9pmjp}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\Home.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "q1ffgu0p7u",
+      "Integrity": "En4YPMP3SSLvfDbPIovzhkSFNnsOVqXUF3vgvosiJIs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\Home.html"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-zgop4naohp.gz",
+      "SourceId": "WatchStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WatchStore",
+      "RelativePath": "UserDetails#[.{fingerprint=zgop4naohp}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pa23q7gln3",
+      "Integrity": "YUQGLUUBvF8vz0YK31HKOgqo4rCv6irPuNuimWlYe8k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-sk033703ry.gz",
+      "SourceId": "WatchStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WatchStore",
+      "RelativePath": "userDetails#[.{fingerprint=sk033703ry}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yhl2v9inv7",
+      "Integrity": "qgMy+OjBKKOkLRjHqb7e36DWarQw9NfSr8s4cQMSVBs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.js"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-auxf6uijhi.gz",
+      "SourceId": "WatchStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WatchStore",
+      "RelativePath": "userDetails#[.{fingerprint=auxf6uijhi}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "u6wh11ashv",
+      "Integrity": "yl2cCK47KIulEzCBJQoynj5RoL/vIha2jMGXOaGsLzY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.css"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\Home.html",
+      "SourceId": "WatchStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\",
+      "BasePath": "_content/WatchStore",
+      "RelativePath": "Home#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2ksfg9pmjp",
+      "Integrity": "rt3BWgjnROSvq09WONNBiV8uVo46c8m0k1CSk31dlQM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Home.html"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\home.js",
+      "SourceId": "WatchStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\",
+      "BasePath": "_content/WatchStore",
+      "RelativePath": "home#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s4b14wlcpv",
+      "Integrity": "ZL3HG0125KKRXiyAl0A0dmADB+1PcAihGe7jZj3hjtI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home.js"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
+      "SourceId": "WatchStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\",
+      "BasePath": "_content/WatchStore",
+      "RelativePath": "userDetails#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "auxf6uijhi",
+      "Integrity": "EjfLogMb769DDR+7spb0Q+7FY8hWJE5E4Zbe1hnJEKU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userDetails.css"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
+      "SourceId": "WatchStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\",
+      "BasePath": "_content/WatchStore",
+      "RelativePath": "UserDetails#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zgop4naohp",
+      "Integrity": "IyivpiBLEoQ9LBniWQ0KwF5AckQ9Z9o+rT8nc8D6w3s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UserDetails.html"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
+      "SourceId": "WatchStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\",
+      "BasePath": "_content/WatchStore",
+      "RelativePath": "userDetails#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sk033703ry",
+      "Integrity": "VLsIdXl0aF2pGAgXslbj1iiJuseloKhNwZDZzHqmikE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userDetails.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Home.2ksfg9pmjp.html",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002267573696"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "440"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"En4YPMP3SSLvfDbPIovzhkSFNnsOVqXUF3vgvosiJIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 13:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rt3BWgjnROSvq09WONNBiV8uVo46c8m0k1CSk31dlQM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ksfg9pmjp"
+        },
+        {
+          "Name": "label",
+          "Value": "Home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rt3BWgjnROSvq09WONNBiV8uVo46c8m0k1CSk31dlQM="
+        }
+      ]
+    },
+    {
+      "Route": "Home.2ksfg9pmjp.html",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rt3BWgjnROSvq09WONNBiV8uVo46c8m0k1CSk31dlQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 13:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ksfg9pmjp"
+        },
+        {
+          "Name": "label",
+          "Value": "Home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rt3BWgjnROSvq09WONNBiV8uVo46c8m0k1CSk31dlQM="
+        }
+      ]
+    },
+    {
+      "Route": "Home.2ksfg9pmjp.html.gz",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"En4YPMP3SSLvfDbPIovzhkSFNnsOVqXUF3vgvosiJIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 13:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ksfg9pmjp"
+        },
+        {
+          "Name": "label",
+          "Value": "Home.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-En4YPMP3SSLvfDbPIovzhkSFNnsOVqXUF3vgvosiJIs="
+        }
+      ]
+    },
+    {
+      "Route": "Home.html",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002267573696"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "440"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"En4YPMP3SSLvfDbPIovzhkSFNnsOVqXUF3vgvosiJIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 13:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rt3BWgjnROSvq09WONNBiV8uVo46c8m0k1CSk31dlQM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rt3BWgjnROSvq09WONNBiV8uVo46c8m0k1CSk31dlQM="
+        }
+      ]
+    },
+    {
+      "Route": "Home.html",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rt3BWgjnROSvq09WONNBiV8uVo46c8m0k1CSk31dlQM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 13:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rt3BWgjnROSvq09WONNBiV8uVo46c8m0k1CSk31dlQM="
+        }
+      ]
+    },
+    {
+      "Route": "Home.html.gz",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"En4YPMP3SSLvfDbPIovzhkSFNnsOVqXUF3vgvosiJIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 13:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-En4YPMP3SSLvfDbPIovzhkSFNnsOVqXUF3vgvosiJIs="
+        }
+      ]
+    },
+    {
+      "Route": "home.js",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-s4b14wlcpv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001293661061"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "772"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EcTewet/M0Mww55Ir0HbSXeKfcgjqoaV19HHeTwXCW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:05:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZL3HG0125KKRXiyAl0A0dmADB+1PcAihGe7jZj3hjtI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZL3HG0125KKRXiyAl0A0dmADB+1PcAihGe7jZj3hjtI="
+        }
+      ]
+    },
+    {
+      "Route": "home.js",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZL3HG0125KKRXiyAl0A0dmADB+1PcAihGe7jZj3hjtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:05:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZL3HG0125KKRXiyAl0A0dmADB+1PcAihGe7jZj3hjtI="
+        }
+      ]
+    },
+    {
+      "Route": "home.js.gz",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-s4b14wlcpv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EcTewet/M0Mww55Ir0HbSXeKfcgjqoaV19HHeTwXCW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:05:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EcTewet/M0Mww55Ir0HbSXeKfcgjqoaV19HHeTwXCW8="
+        }
+      ]
+    },
+    {
+      "Route": "home.s4b14wlcpv.js",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-s4b14wlcpv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001293661061"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "772"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EcTewet/M0Mww55Ir0HbSXeKfcgjqoaV19HHeTwXCW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:05:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZL3HG0125KKRXiyAl0A0dmADB+1PcAihGe7jZj3hjtI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s4b14wlcpv"
+        },
+        {
+          "Name": "label",
+          "Value": "home.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZL3HG0125KKRXiyAl0A0dmADB+1PcAihGe7jZj3hjtI="
+        }
+      ]
+    },
+    {
+      "Route": "home.s4b14wlcpv.js",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\home.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZL3HG0125KKRXiyAl0A0dmADB+1PcAihGe7jZj3hjtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:05:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s4b14wlcpv"
+        },
+        {
+          "Name": "label",
+          "Value": "home.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZL3HG0125KKRXiyAl0A0dmADB+1PcAihGe7jZj3hjtI="
+        }
+      ]
+    },
+    {
+      "Route": "home.s4b14wlcpv.js.gz",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-s4b14wlcpv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EcTewet/M0Mww55Ir0HbSXeKfcgjqoaV19HHeTwXCW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:05:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s4b14wlcpv"
+        },
+        {
+          "Name": "label",
+          "Value": "home.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EcTewet/M0Mww55Ir0HbSXeKfcgjqoaV19HHeTwXCW8="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.auxf6uijhi.css",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-auxf6uijhi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001326259947"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "753"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yl2cCK47KIulEzCBJQoynj5RoL/vIha2jMGXOaGsLzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EjfLogMb769DDR+7spb0Q+7FY8hWJE5E4Zbe1hnJEKU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "auxf6uijhi"
+        },
+        {
+          "Name": "label",
+          "Value": "userDetails.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjfLogMb769DDR+7spb0Q+7FY8hWJE5E4Zbe1hnJEKU="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.auxf6uijhi.css",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EjfLogMb769DDR+7spb0Q+7FY8hWJE5E4Zbe1hnJEKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "auxf6uijhi"
+        },
+        {
+          "Name": "label",
+          "Value": "userDetails.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjfLogMb769DDR+7spb0Q+7FY8hWJE5E4Zbe1hnJEKU="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.auxf6uijhi.css.gz",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-auxf6uijhi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "753"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yl2cCK47KIulEzCBJQoynj5RoL/vIha2jMGXOaGsLzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "auxf6uijhi"
+        },
+        {
+          "Name": "label",
+          "Value": "userDetails.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yl2cCK47KIulEzCBJQoynj5RoL/vIha2jMGXOaGsLzY="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.css",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-auxf6uijhi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001326259947"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "753"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yl2cCK47KIulEzCBJQoynj5RoL/vIha2jMGXOaGsLzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EjfLogMb769DDR+7spb0Q+7FY8hWJE5E4Zbe1hnJEKU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjfLogMb769DDR+7spb0Q+7FY8hWJE5E4Zbe1hnJEKU="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.css",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EjfLogMb769DDR+7spb0Q+7FY8hWJE5E4Zbe1hnJEKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjfLogMb769DDR+7spb0Q+7FY8hWJE5E4Zbe1hnJEKU="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.css.gz",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-auxf6uijhi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "753"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yl2cCK47KIulEzCBJQoynj5RoL/vIha2jMGXOaGsLzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yl2cCK47KIulEzCBJQoynj5RoL/vIha2jMGXOaGsLzY="
+        }
+      ]
+    },
+    {
+      "Route": "UserDetails.html",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-zgop4naohp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001494768311"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "668"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YUQGLUUBvF8vz0YK31HKOgqo4rCv6irPuNuimWlYe8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IyivpiBLEoQ9LBniWQ0KwF5AckQ9Z9o+rT8nc8D6w3s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IyivpiBLEoQ9LBniWQ0KwF5AckQ9Z9o+rT8nc8D6w3s="
+        }
+      ]
+    },
+    {
+      "Route": "UserDetails.html",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IyivpiBLEoQ9LBniWQ0KwF5AckQ9Z9o+rT8nc8D6w3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IyivpiBLEoQ9LBniWQ0KwF5AckQ9Z9o+rT8nc8D6w3s="
+        }
+      ]
+    },
+    {
+      "Route": "UserDetails.html.gz",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-zgop4naohp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YUQGLUUBvF8vz0YK31HKOgqo4rCv6irPuNuimWlYe8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YUQGLUUBvF8vz0YK31HKOgqo4rCv6irPuNuimWlYe8k="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.js",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-sk033703ry.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.018867924528"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qgMy+OjBKKOkLRjHqb7e36DWarQw9NfSr8s4cQMSVBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 09:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VLsIdXl0aF2pGAgXslbj1iiJuseloKhNwZDZzHqmikE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VLsIdXl0aF2pGAgXslbj1iiJuseloKhNwZDZzHqmikE="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.js",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VLsIdXl0aF2pGAgXslbj1iiJuseloKhNwZDZzHqmikE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 09:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VLsIdXl0aF2pGAgXslbj1iiJuseloKhNwZDZzHqmikE="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.js.gz",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-sk033703ry.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qgMy+OjBKKOkLRjHqb7e36DWarQw9NfSr8s4cQMSVBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 09:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qgMy+OjBKKOkLRjHqb7e36DWarQw9NfSr8s4cQMSVBs="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.sk033703ry.js",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-sk033703ry.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.018867924528"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qgMy+OjBKKOkLRjHqb7e36DWarQw9NfSr8s4cQMSVBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 09:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VLsIdXl0aF2pGAgXslbj1iiJuseloKhNwZDZzHqmikE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sk033703ry"
+        },
+        {
+          "Name": "label",
+          "Value": "userDetails.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VLsIdXl0aF2pGAgXslbj1iiJuseloKhNwZDZzHqmikE="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.sk033703ry.js",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VLsIdXl0aF2pGAgXslbj1iiJuseloKhNwZDZzHqmikE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 09:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sk033703ry"
+        },
+        {
+          "Name": "label",
+          "Value": "userDetails.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VLsIdXl0aF2pGAgXslbj1iiJuseloKhNwZDZzHqmikE="
+        }
+      ]
+    },
+    {
+      "Route": "userDetails.sk033703ry.js.gz",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-sk033703ry.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qgMy+OjBKKOkLRjHqb7e36DWarQw9NfSr8s4cQMSVBs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 09:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sk033703ry"
+        },
+        {
+          "Name": "label",
+          "Value": "userDetails.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qgMy+OjBKKOkLRjHqb7e36DWarQw9NfSr8s4cQMSVBs="
+        }
+      ]
+    },
+    {
+      "Route": "UserDetails.zgop4naohp.html",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-zgop4naohp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001494768311"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "668"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YUQGLUUBvF8vz0YK31HKOgqo4rCv6irPuNuimWlYe8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IyivpiBLEoQ9LBniWQ0KwF5AckQ9Z9o+rT8nc8D6w3s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zgop4naohp"
+        },
+        {
+          "Name": "label",
+          "Value": "UserDetails.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IyivpiBLEoQ9LBniWQ0KwF5AckQ9Z9o+rT8nc8D6w3s="
+        }
+      ]
+    },
+    {
+      "Route": "UserDetails.zgop4naohp.html",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IyivpiBLEoQ9LBniWQ0KwF5AckQ9Z9o+rT8nc8D6w3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zgop4naohp"
+        },
+        {
+          "Name": "label",
+          "Value": "UserDetails.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IyivpiBLEoQ9LBniWQ0KwF5AckQ9Z9o+rT8nc8D6w3s="
+        }
+      ]
+    },
+    {
+      "Route": "UserDetails.zgop4naohp.html.gz",
+      "AssetFile": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-zgop4naohp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YUQGLUUBvF8vz0YK31HKOgqo4rCv6irPuNuimWlYe8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zgop4naohp"
+        },
+        {
+          "Name": "label",
+          "Value": "UserDetails.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YUQGLUUBvF8vz0YK31HKOgqo4rCv6irPuNuimWlYe8k="
+        }
+      ]
+    }
+  ]
+}

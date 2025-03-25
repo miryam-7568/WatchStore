@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\Home.html",
+      "PackagePath": "staticwebassets\\Home.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
+      "PackagePath": "staticwebassets\\UserDetails.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\home.js",
+      "PackagePath": "staticwebassets\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
+      "PackagePath": "staticwebassets\\userDetails.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
+      "PackagePath": "staticwebassets\\userDetails.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WatchStore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WatchStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.WatchStore.props",
+      "PackagePath": "build\\WatchStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.WatchStore.props",
+      "PackagePath": "buildMultiTargeting\\WatchStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.WatchStore.props",
+      "PackagePath": "buildTransitive\\WatchStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
