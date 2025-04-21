@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WuvNE7RRLVc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web_api\\WatchStore\\WatchStore\\Business\\Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\zxcvbn-core\\7.0.92\\zxcvbn-core.7.0.92.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -21,6 +21,8 @@ login = async () => {
             "body": JSON.stringify(loginrequest)
         })
         if (response.ok) {
+            const usertolocalstorage = await response.json();
+            localStorage.setItem("user", JSON.stringify(usertolocalstorage))
             window.location.href = "UserDetails.html";
         }
         else {
@@ -71,23 +73,24 @@ register = async () => {
             },
             "body": JSON.stringify(registerrequest)
         })
+        const data = await response.json(); 
         if (response.ok) {
+            localStorage.setItem("user", JSON.stringify(data))
             alert("user registered successfully")
         }
         else {
             switch (response.status) {
                 case 400:
-                    const badRequestData = await response.json();
-                    alert(`Bad request: ${badRequestData.message || 'Invalid input. Please check your data.'}`);
+                    alert(`Bad request: ${data.message || 'Invalid input. Please check your data.'}`);
                     break;
                 case 401:
-                    alert("Unauthorized: Please check your credentials.");
+                    alert( `Unauthorized:${data.message || ' Please check your credentials.'}`);
                     break;
                 case 500:
                     alert("Server error. Please try again later.");
                     break;
                 default:
-                    alert(`Unexpected error: ${response.status}`);
+                    alert(`Unexpected error: ${response.status + data.message}`);
             }
         }
     }

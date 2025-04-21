@@ -4,6 +4,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchStore", "WatchStore\WatchStore.csproj", "{49691327-5049-498C-8495-4876AB305622}"
+	ProjectSection(ProjectDependencies) = postProject
+		{60176627-5B3D-4033-B05E-32194A789AAE} = {60176627-5B3D-4033-B05E-32194A789AAE}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{4D6C3BB1-8A97-443F-98E0-5F7E41BF9145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{883E3A57-205C-483C-B9B1-933EEBFE6A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{60176627-5B3D-4033-B05E-32194A789AAE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{883E3A57-205C-483C-B9B1-933EEBFE6A1A} = {883E3A57-205C-483C-B9B1-933EEBFE6A1A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +32,18 @@ Global
 		{49691327-5049-498C-8495-4876AB305622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49691327-5049-498C-8495-4876AB305622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49691327-5049-498C-8495-4876AB305622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6C3BB1-8A97-443F-98E0-5F7E41BF9145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6C3BB1-8A97-443F-98E0-5F7E41BF9145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6C3BB1-8A97-443F-98E0-5F7E41BF9145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6C3BB1-8A97-443F-98E0-5F7E41BF9145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883E3A57-205C-483C-B9B1-933EEBFE6A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883E3A57-205C-483C-B9B1-933EEBFE6A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883E3A57-205C-483C-B9B1-933EEBFE6A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883E3A57-205C-483C-B9B1-933EEBFE6A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60176627-5B3D-4033-B05E-32194A789AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60176627-5B3D-4033-B05E-32194A789AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60176627-5B3D-4033-B05E-32194A789AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60176627-5B3D-4033-B05E-32194A789AAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

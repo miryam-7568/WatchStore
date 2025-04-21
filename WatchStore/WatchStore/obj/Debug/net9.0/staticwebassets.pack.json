@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\Home.html",
+      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web_api\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\Home.html",
       "PackagePath": "staticwebassets\\Home.html"
     },
     {
-      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
+      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web_api\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
       "PackagePath": "staticwebassets\\UserDetails.html"
     },
     {
-      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\home.js",
+      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web_api\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
       "PackagePath": "staticwebassets\\home.js"
     },
     {
-      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
+      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web_api\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
       "PackagePath": "staticwebassets\\userDetails.css"
     },
     {
-      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web api\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
+      "Id": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web_api\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
       "PackagePath": "staticwebassets\\userDetails.js"
     },
     {

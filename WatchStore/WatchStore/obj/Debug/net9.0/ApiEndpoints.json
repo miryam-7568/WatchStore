@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WatchStore.User, WatchStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Entities.User, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -35,7 +35,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WatchStore.User",
+        "Type": "Entities.User",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -60,14 +60,18 @@
       },
       {
         "Name": "userToUpdate",
-        "Type": "WatchStore.User",
+        "Type": "Entities.User",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "Entities.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -103,14 +107,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "loginRequest",
-        "Type": "WatchStore.LoginUser",
+        "Name": "loginUser",
+        "Type": "Entities.LoginUser",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WatchStore.User",
+        "Type": "Entities.User",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -130,13 +134,13 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "WatchStore.User",
+        "Type": "Entities.User",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WatchStore.User",
+        "Type": "Entities.User",
         "MediaTypes": [
           "text/plain",
           "application/json",

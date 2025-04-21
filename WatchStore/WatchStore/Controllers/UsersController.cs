@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
+﻿using Business;
+using Entities;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 
@@ -10,11 +12,12 @@ namespace WatchStore.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
+        UsersServices usersServices = new UsersServices();
+
         // GET: api/<UsersController>
         [HttpGet]
         public IEnumerable<User> Get()
         {
-
             return null;//users;
         }
 
@@ -22,17 +25,15 @@ namespace WatchStore.Controllers
         [HttpGet("{id}")]
         public ActionResult<User>  Get(int id)
         {
-            using (StreamReader reader = System.IO.File.OpenText("users.txt"))
+            User user = usersServices.GetUserById(id);
+            if (user != null)
             {
-                string? currentUserInFile;
-                while ((currentUserInFile = reader.ReadLine()) != null)
-                {
-                    User user = JsonSerializer.Deserialize<User>(currentUserInFile);
-                    if (user?.UserId == id)
-                        return Ok(user);
-                }
+                return Ok(user);
             }
-            return NoContent();
+            else
+            {
+                return NoContent();
+            }
         }
 
         // POST api/<UsersController>
@@ -42,81 +43,50 @@ namespace WatchStore.Controllers
         {
             if (user is null)
                 return StatusCode(400, "user is required");
+
             if (string.IsNullOrEmpty(user.Password) || string.IsNullOrEmpty(user.UserName))
-                return StatusCode(400, "Password and UserName are required");          
+                return StatusCode(400, "Password and UserName are required");
             try
             {
-                int numberOfUsers = System.IO.File.Exists("users.txt") ? System.IO.File.ReadLines("users.txt").Count() : 0;
-                user.UserId = numberOfUsers + 1;
-                if (System.IO.File.Exists("users.txt"))
-                {
-                    var existingUsers = System.IO.File.ReadLines("users.txt").Select(line => JsonSerializer.Deserialize<User>(line)).ToList();
-                    if (existingUsers.Any(u => u.UserName == user.UserName))
-                        return StatusCode(400, "Username is already taken");
-                }  
-                string userJson = JsonSerializer.Serialize(user);
-                System.IO.File.AppendAllText("users.txt", userJson + Environment.NewLine);
+                usersServices.Register(user);
                 return CreatedAtAction(nameof(Get), new { id = user.UserId }, user);
             }
-            catch (Exception ex)
+            catch(CustomApiException ex)
             {
-                return StatusCode(500, "Error writing user to file: " + ex.Message);
+                //Console.WriteLine(ex.Message);
+                return StatusCode(ex.StatusCode, new { message = ex.Message });
             }
+
         }
 
         [HttpPost("login")]
-        public ActionResult<User> login([FromBody] LoginUser loginRequest)
+        public ActionResult<User> login([FromBody] LoginUser loginUser)
         {
-            if (string.IsNullOrEmpty(loginRequest?.Password) || string.IsNullOrEmpty(loginRequest?.UserName))
+            if (string.IsNullOrEmpty(loginUser?.Password) || string.IsNullOrEmpty(loginUser?.UserName))
                 return BadRequest(new { error = "Username and password are required." });
             try
             {
-                if (!System.IO.File.Exists("users.txt"))
-                {
-                    return NotFound("No users found.");
-                }
-
-                using (StreamReader reader = System.IO.File.OpenText("users.txt"))
-                {
-                    string currentUserInFile;
-                    while ((currentUserInFile = reader.ReadLine()) != null)
-                    {
-                        User user = JsonSerializer.Deserialize<User>(currentUserInFile);
-                        if (user?.UserName == loginRequest.UserName && user.Password == loginRequest.Password)
-                        {
-                            return Ok(user);
-                        }
-                    }
-                }
-                return Unauthorized("Invalid username or password.");
+                User user = usersServices.Login(loginUser);
+                return Ok(user);
             }
-            catch (Exception ex)
+            catch (CustomApiException ex)
             {
-                return StatusCode(500, "Error reading users from file: " + ex.Message);
+                return StatusCode(ex.StatusCode, new { message = ex.Message });
             }
         }
         
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] User userToUpdate)
+        public ActionResult<User> Put(int id, [FromBody] User userToUpdate)
         {
-            string textToReplace = string.Empty;
-            using (StreamReader reader = System.IO.File.OpenText("users.txt"))
+            try
             {
-                string currentUserInFile;
-                while ((currentUserInFile = reader.ReadLine()) != null)
-                {
-                    User user = JsonSerializer.Deserialize<User>(currentUserInFile);
-                    if (user?.UserId == id)
-                        textToReplace = currentUserInFile;
-                }
+                User user = usersServices.UpdateUser(id, userToUpdate);
+                return Ok(user);
             }
-
-            if (textToReplace != string.Empty)
+            catch (CustomApiException ex)
             {
-                string text = System.IO.File.ReadAllText("users.txt");
-                text = text.Replace(textToReplace, JsonSerializer.Serialize(userToUpdate));
-                System.IO.File.WriteAllText("users.txt", text);
+                return StatusCode(ex.StatusCode, new { message = ex.Message });
             }
         }
 
