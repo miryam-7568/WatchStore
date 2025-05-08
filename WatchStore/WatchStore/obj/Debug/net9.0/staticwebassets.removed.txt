@@ -1,0 +1,5 @@
+C:\Users\PC\Documents\מרימי\מסלול\web_api\WatchStore\WatchStore\WatchStore\wwwroot\home.js
+C:\Users\PC\Documents\מרימי\מסלול\web_api\WatchStore\WatchStore\WatchStore\wwwroot\Home.html
+C:\Users\PC\Documents\מרימי\מסלול\web_api\WatchStore\WatchStore\WatchStore\wwwroot\UserDetails.html
+C:\Users\PC\Documents\מרימי\מסלול\web_api\WatchStore\WatchStore\WatchStore\wwwroot\userDetails.js
+C:\Users\PC\Documents\מרימי\מסלול\web_api\WatchStore\WatchStore\WatchStore\wwwroot\userDetails.css

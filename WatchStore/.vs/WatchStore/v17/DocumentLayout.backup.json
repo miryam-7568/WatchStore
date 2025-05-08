@@ -1,25 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\WatchStore\\WatchStore\\",
+  "WorkspaceRootPath": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49691327-5049-498C-8495-4876AB305622}|WatchStore\\WatchStore.csproj|c:\\users\\pc\\documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\watchstore\\watchstore\\watchstore\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49691327-5049-498C-8495-4876AB305622}|WatchStore\\WatchStore.csproj|solutionrelative:watchstore\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60176627-5B3D-4033-B05E-32194A789AAE}|Business\\Business.csproj|c:\\users\\327742698\\desktop\\watchstore\\watchstore\\business\\iusersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60176627-5B3D-4033-B05E-32194A789AAE}|Business\\Business.csproj|solutionrelative:business\\iusersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{883E3A57-205C-483C-B9B1-933EEBFE6A1A}|Repository\\Repository.csproj|c:\\users\\pc\\documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\watchstore\\watchstore\\repository\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883E3A57-205C-483C-B9B1-933EEBFE6A1A}|Repository\\Repository.csproj|solutionrelative:repository\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60176627-5B3D-4033-B05E-32194A789AAE}|Business\\Business.csproj|c:\\users\\pc\\documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\watchstore\\watchstore\\business\\usersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60176627-5B3D-4033-B05E-32194A789AAE}|Business\\Business.csproj|c:\\users\\327742698\\desktop\\watchstore\\watchstore\\business\\usersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60176627-5B3D-4033-B05E-32194A789AAE}|Business\\Business.csproj|solutionrelative:business\\usersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49691327-5049-498C-8495-4876AB305622}|WatchStore\\WatchStore.csproj|c:\\users\\pc\\documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\watchstore\\watchstore\\watchstore\\wwwroot\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "AbsoluteMoniker": "D:0:0:{49691327-5049-498C-8495-4876AB305622}|WatchStore\\WatchStore.csproj|c:\\users\\327742698\\desktop\\watchstore\\watchstore\\watchstore\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49691327-5049-498C-8495-4876AB305622}|WatchStore\\WatchStore.csproj|solutionrelative:watchstore\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49691327-5049-498C-8495-4876AB305622}|WatchStore\\WatchStore.csproj|c:\\users\\327742698\\desktop\\watchstore\\watchstore\\watchstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49691327-5049-498C-8495-4876AB305622}|WatchStore\\WatchStore.csproj|solutionrelative:watchstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883E3A57-205C-483C-B9B1-933EEBFE6A1A}|Repository\\Repository.csproj|c:\\users\\327742698\\desktop\\watchstore\\watchstore\\repository\\iusersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883E3A57-205C-483C-B9B1-933EEBFE6A1A}|Repository\\Repository.csproj|solutionrelative:repository\\iusersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{883E3A57-205C-483C-B9B1-933EEBFE6A1A}|Repository\\Repository.csproj|c:\\users\\327742698\\desktop\\watchstore\\watchstore\\repository\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883E3A57-205C-483C-B9B1-933EEBFE6A1A}|Repository\\Repository.csproj|solutionrelative:repository\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49691327-5049-498C-8495-4876AB305622}|WatchStore\\WatchStore.csproj|c:\\users\\327742698\\desktop\\watchstore\\watchstore\\watchstore\\wwwroot\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
       "RelativeMoniker": "D:0:0:{49691327-5049-498C-8495-4876AB305622}|WatchStore\\WatchStore.csproj|solutionrelative:watchstore\\wwwroot\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{883E3A57-205C-483C-B9B1-933EEBFE6A1A}|Repository\\Repository.csproj|c:\\users\\pc\\documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\watchstore\\watchstore\\repository\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{883E3A57-205C-483C-B9B1-933EEBFE6A1A}|Repository\\Repository.csproj|c:\\users\\327742698\\desktop\\watchstore\\watchstore\\repository\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{883E3A57-205C-483C-B9B1-933EEBFE6A1A}|Repository\\Repository.csproj|solutionrelative:repository\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -30,69 +42,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUsersServices.cs",
+              "DocumentMoniker": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Business\\IUsersServices.cs",
+              "RelativeDocumentMoniker": "Business\\IUsersServices.cs",
+              "ToolTip": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Business\\IUsersServices.cs*",
+              "RelativeToolTip": "Business\\IUsersServices.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:39:18.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsersData.cs",
+              "DocumentMoniker": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Repository\\IUsersData.cs",
+              "RelativeDocumentMoniker": "Repository\\IUsersData.cs",
+              "ToolTip": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Repository\\IUsersData.cs",
+              "RelativeToolTip": "Repository\\IUsersData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:31:07.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\Program.cs",
+              "RelativeDocumentMoniker": "WatchStore\\Program.cs",
+              "ToolTip": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\Program.cs",
+              "RelativeToolTip": "WatchStore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:26:59.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "home.js",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
+              "DocumentMoniker": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
               "RelativeDocumentMoniker": "WatchStore\\wwwroot\\home.js",
-              "ToolTip": "C:\\Users\\PC\\Documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
+              "ToolTip": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
               "RelativeToolTip": "WatchStore\\wwwroot\\home.js",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFYAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-21T08:16:18.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "users.txt",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\WatchStore\\WatchStore\\Repository\\users.txt",
+              "DocumentMoniker": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Repository\\users.txt",
               "RelativeDocumentMoniker": "Repository\\users.txt",
-              "ToolTip": "C:\\Users\\PC\\Documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\WatchStore\\WatchStore\\Repository\\users.txt",
+              "ToolTip": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Repository\\users.txt",
               "RelativeToolTip": "Repository\\users.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-21T10:33:24.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T10:33:24.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UsersServices.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\WatchStore\\WatchStore\\Business\\UsersServices.cs",
+              "DocumentMoniker": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Business\\UsersServices.cs",
               "RelativeDocumentMoniker": "Business\\UsersServices.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\WatchStore\\WatchStore\\Business\\UsersServices.cs",
+              "ToolTip": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Business\\UsersServices.cs",
               "RelativeToolTip": "Business\\UsersServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T10:25:54.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UsersData.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\WatchStore\\WatchStore\\Repository\\UsersData.cs",
+              "DocumentMoniker": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Repository\\UsersData.cs",
               "RelativeDocumentMoniker": "Repository\\UsersData.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\WatchStore\\WatchStore\\Repository\\UsersData.cs",
+              "ToolTip": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Repository\\UsersData.cs",
               "RelativeToolTip": "Repository\\UsersData.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T21:17:25.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\WatchStore\\WatchStore\\WatchStore\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "WatchStore\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\\u05DE\u05E8\u05D9\u05DE\u05D9\\\u05DE\u05E1\u05DC\u05D5\u05DC\\web_api\\WatchStore\\WatchStore\\WatchStore\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\Controllers\\UsersController.cs",
               "RelativeToolTip": "WatchStore\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAYwE8AAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T17:28:39.079Z",
               "EditorCaption": ""

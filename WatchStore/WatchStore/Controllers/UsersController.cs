@@ -12,7 +12,11 @@ namespace WatchStore.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        UsersServices usersServices = new UsersServices();
+        IUsersServices usersServices;
+        public UsersController(IUsersServices usersServices)
+        {
+            this.usersServices = usersServices;
+        }
 
         // GET: api/<UsersController>
         [HttpGet]
