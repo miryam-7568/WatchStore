@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XWK4w33JcsM=",
+  "dgSpecHash": "Cpv9ego7lC4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Documents\\מרימי\\מסלול\\web_api\\WatchStore\\WatchStore\\WatchStore\\WatchStore.csproj",
+  "projectFilePath": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\WatchStore.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PC\\.nuget\\packages\\zxcvbn-core\\7.0.92\\zxcvbn-core.7.0.92.nupkg.sha512"
+    "C:\\Users\\327742698\\.nuget\\packages\\zxcvbn-core\\7.0.92\\zxcvbn-core.7.0.92.nupkg.sha512"
   ],
   "logs": []
 }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 namespace Repository
 {
     public class UsersData
+        : IUsersData
     {
         string filePath = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).FullName, "Repository", "users.txt");
         public User GetUserByIdFromDB(int id)

@@ -9,8 +9,14 @@ using System.Threading.Tasks;
 namespace Business
 {
     public class UsersServices
+        : IUsersServices
     {
-        UsersData usersData = new UsersData();
+        IUsersData usersData;
+
+        public UsersServices(IUsersData usersData)
+        {
+            this.usersData = usersData;
+        }
         public bool ValidatePasswordStrength(string password)
         {
             var zxcvbnResult = Zxcvbn.Core.EvaluatePassword(password);
