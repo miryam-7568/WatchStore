@@ -9,10 +9,10 @@ namespace Repository
 {
     public interface IUsersData
     {
-        public User GetUserByIdFromDB(int id);
+        public Task<User> GetUserByIdFromDB(int id);
         public void Register(User user);
-        public User Login(LoginUser loginUser);
-        public User UpdateUser(int id, User userToUpdate);
+        public Task<User> Login(LoginUser loginUser);
+        public Task<User> UpdateUser(int id, User userToUpdate);
 
     }
 }

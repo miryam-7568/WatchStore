@@ -11,11 +11,11 @@ namespace Business
     public class UsersServices
         : IUsersServices
     {
-        IUsersData usersData;
+        readonly IUsersData _usersData;
 
         public UsersServices(IUsersData usersData)
         {
-            this.usersData = usersData;
+            this._usersData = usersData;
         }
         public bool ValidatePasswordStrength(string password)
         {
@@ -23,32 +23,31 @@ namespace Business
             return zxcvbnResult.Score >= 3;  // סיסמה נחשבת לחזקה אם היא מקבלת דירוג של 3 או יותר
         }
 
-        public User GetUserById(int id)
+        public async Task<User> GetUserById(int id)
         {
-            User user = usersData.GetUserByIdFromDB(id);
-            return user;
+            return await _usersData.GetUserByIdFromDB(id);
         }
         public void Register(User user)
         {
             if (ValidatePasswordStrength(user.Password))
             {
-                usersData.Register(user);
+                _usersData.Register(user);
             }
             else
             {
                 throw new CustomApiException(400, "password not strong enough");
             }
         }
-        public User Login(LoginUser loginUser)
+        public async Task<User> Login(LoginUser loginUser)
         {
-            return usersData.Login(loginUser);
+            return await _usersData.Login(loginUser);
         }
 
-        public User UpdateUser(int id, User userToUpdate)
+        public async Task<User> UpdateUser(int id, User userToUpdate)
         {
             if (ValidatePasswordStrength(userToUpdate.Password))
             {
-                return usersData.UpdateUser(id, userToUpdate);
+                return await _usersData.UpdateUser(id, userToUpdate);
             }
             else
             {

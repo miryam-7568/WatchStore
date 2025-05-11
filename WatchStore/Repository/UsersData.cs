@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,34 +13,26 @@ namespace Repository
         : IUsersData
     {
         string filePath = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).FullName, "Repository", "users.txt");
-        public User GetUserByIdFromDB(int id)
+        ShopDB327742698Context _shopDB;
+
+        public UsersData(ShopDB327742698Context shopDB)
         {
-            using (StreamReader reader = System.IO.File.OpenText(filePath))
-            {
-                string? currentUserInFile;
-                while ((currentUserInFile = reader.ReadLine()) != null)
-                {
-                    User user = JsonSerializer.Deserialize<User>(currentUserInFile);
-                    if (user?.UserId == id)
-                        return user;
-                }
-            }
-            return null;
+            this._shopDB = shopDB;
         }
-        public void Register(User user)
+
+        public async Task<User> GetUserByIdFromDB(int id)
+        {
+            return await _shopDB.Users.FirstOrDefaultAsync(u => u.UserId == id);
+
+        }
+        public async void Register(User user)
         {
             try
             {
-                int numberOfUsers = System.IO.File.Exists(filePath) ? System.IO.File.ReadLines(filePath).Count() : 0;
-                user.UserId = numberOfUsers + 1;
-                if (System.IO.File.Exists(filePath))
-                {
-                    var existingUsers = System.IO.File.ReadLines(filePath).Select(line => JsonSerializer.Deserialize<User>(line)).ToList();
-                    if (existingUsers.Any(u => u.UserName == user.UserName))
-                        throw new CustomApiException(409,"Username is already taken");
-                }
-                string userJson = JsonSerializer.Serialize(user);
-                System.IO.File.AppendAllText(filePath, userJson + Environment.NewLine);
+                if (await _shopDB.Users.AnyAsync(u => u.UserName == user.UserName))
+                    throw new CustomApiException(409, "Username is already taken");
+                await _shopDB.Users.AddAsync(user);
+                await _shopDB.SaveChangesAsync();
             }
             catch (CustomApiException ex)
             {
@@ -47,70 +40,30 @@ namespace Repository
             }
             catch (Exception ex)
             {
-                throw new CustomApiException(500,"Error writing user to file: " + ex.Message);
+                throw new CustomApiException(500, "Error writing user to file: " + ex.Message);
             }
         }
 
-        public User Login(LoginUser loginUser)
+        public async Task<User>  Login(LoginUser loginUser)
         {
-            try
-            {
-                if (!System.IO.File.Exists(filePath))
-                {
-                    throw new CustomApiException(500,"DB not found.");
-                }
-
-                using (StreamReader reader = System.IO.File.OpenText(filePath))
-                {
-                    string currentUserInFile;
-                    while ((currentUserInFile = reader.ReadLine()) != null)
-                    {
-                        User user = JsonSerializer.Deserialize<User>(currentUserInFile);
-                        if (user?.UserName == loginUser.UserName && user.Password == loginUser.Password)
-                        {
-                            return user;
-                        }
-                    }
-                }
-                throw new CustomApiException(401, "Invalid username or password.");
-            }
-            catch (Exception ex)
-            {
-                if (ex is CustomApiException)
-                {
-                    throw ex;
-                }
-                throw new CustomApiException(500, "Error reading users from file: " + ex.Message);
-            }
+              return  await _shopDB.Users.FirstOrDefaultAsync(u => u.Password == loginUser.Password && u.UserName == loginUser.UserName);
         }
 
-        public User UpdateUser(int id, User userToUpdate)
+        public async Task<User> UpdateUser(int id, User userToUpdate)
         {
-            string textToReplace = string.Empty;
             try
             {
-                using (StreamReader reader = System.IO.File.OpenText(filePath))
+                var user = _shopDB.Users.FirstOrDefault(u => u.UserId == id);
+                if (user == null)
                 {
-                    string currentUserInFile;
-                    while ((currentUserInFile = reader.ReadLine()) != null)
-                    {
-                        User user = JsonSerializer.Deserialize<User>(currentUserInFile);
-                        if (user?.UserId == id)
-                            textToReplace = currentUserInFile;
-                    }
+                    throw new CustomApiException(404, "User not found");
                 }
-
-                if (textToReplace != string.Empty)
-                {
-                    string text = System.IO.File.ReadAllText(filePath);
-                    text = text.Replace(textToReplace, JsonSerializer.Serialize(userToUpdate));
-                    System.IO.File.WriteAllText(filePath, text);
-                    return userToUpdate;
-                }
-                else
-                {
-                    throw new CustomApiException(404, "no user found");
-                }
+                user.UserName = userToUpdate.UserName;
+                user.Password = userToUpdate.Password;
+                user.FirstName = userToUpdate.FirstName;
+                user.LastName = userToUpdate.LastName;
+                await _shopDB.SaveChangesAsync();
+                return user;
             }
             catch (CustomApiException ex)
             {
