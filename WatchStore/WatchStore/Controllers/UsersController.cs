@@ -27,9 +27,9 @@ namespace WatchStore.Controllers
 
         // GET api/<UsersController>/5
         [HttpGet("{id}")]
-        public ActionResult<User>  Get(int id)
+        public async Task<ActionResult<User>>  Get(int id)
         {
-            User user = usersServices.GetUserById(id);
+            User user = await usersServices.GetUserById(id);
             if (user != null)
             {
                 return Ok(user);
@@ -43,7 +43,7 @@ namespace WatchStore.Controllers
         // POST api/<UsersController>
 
         [HttpPost("register")]
-        public ActionResult<User> Register([FromBody] User user)
+        public async Task<ActionResult<User>> Register([FromBody] User user)
         {
             if (user is null)
                 return StatusCode(400, "user is required");
@@ -52,7 +52,7 @@ namespace WatchStore.Controllers
                 return StatusCode(400, "Password and UserName are required");
             try
             {
-                usersServices.Register(user);
+                await usersServices.Register(user);
                 return CreatedAtAction(nameof(Get), new { id = user.UserId }, user);
             }
             catch(CustomApiException ex)
@@ -64,13 +64,13 @@ namespace WatchStore.Controllers
         }
 
         [HttpPost("login")]
-        public ActionResult<User> login([FromBody] LoginUser loginUser)
+        public async Task<ActionResult<User>> login([FromBody] LoginUser loginUser)
         {
             if (string.IsNullOrEmpty(loginUser?.Password) || string.IsNullOrEmpty(loginUser?.UserName))
                 return BadRequest(new { error = "Username and password are required." });
             try
             {
-                User user = usersServices.Login(loginUser);
+                User user = await usersServices.Login(loginUser);
                 return Ok(user);
             }
             catch (CustomApiException ex)
@@ -81,11 +81,11 @@ namespace WatchStore.Controllers
         
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
-        public ActionResult<User> Put(int id, [FromBody] User userToUpdate)
+        public async Task<ActionResult<User>> Put(int id, [FromBody] User userToUpdate)
         {
             try
             {
-                User user = usersServices.UpdateUser(id, userToUpdate);
+                User user = await usersServices.UpdateUser(id, userToUpdate);
                 return Ok(user);
             }
             catch (CustomApiException ex)

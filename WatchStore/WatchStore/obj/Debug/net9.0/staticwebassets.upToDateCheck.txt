@@ -1,8 +1,8 @@
-C:\Users\327742698\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\home.js
-C:\Users\327742698\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\Home.html
-C:\Users\327742698\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\UserDetails.html
-C:\Users\327742698\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\userDetails.js
-C:\Users\327742698\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\userDetails.css
+C:\Users\328181300\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\home.js
+C:\Users\328181300\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\Home.html
+C:\Users\328181300\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\UserDetails.html
+C:\Users\328181300\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\userDetails.js
+C:\Users\328181300\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\userDetails.css
 wwwroot\Home.html
 wwwroot\home.js
 wwwroot\userDetails.css

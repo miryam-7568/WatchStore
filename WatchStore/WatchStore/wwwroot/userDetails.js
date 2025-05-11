@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const userData = JSON.parse(localStorage.getItem('user'));
 
     if (userData) {
-        document.getElementById('welcomeMessage').textContent = `שלום ${userData.firstName}, התחברת בהצלחה, מיד נצלול פנימה.`;
-        document.getElementById('userName').value = userData.userName;
-        document.getElementById('firstName').value = userData.firstName;
-        document.getElementById('lastName').value = userData.lastName;
-        document.getElementById('password').value = userData.password;
+        document.getElementById('welcomeMessage').textContent = `שלום ${userData.userName}, התחברת בהצלחה, מיד נצלול פנימה.`;
+        document.getElementById('userName').value = userData.userName.trim();
+        document.getElementById('firstName').value = userData.firstName.trim();
+        document.getElementById('lastName').value = userData.lastName.trim();
+        document.getElementById('password').value = userData.password.trim();
     } else {
         window.location.href = "UserDetails.html";
     }
@@ -16,17 +16,17 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const update = async (event) => {
-    event.preventDefault(); // ⛔ prevent page refresh on submit
+    event.preventDefault(); 
 
     try {
         const userData = JSON.parse(localStorage.getItem('user'));
 
         const updatedUserData = {
             userId: userData.userId,
-            userName: document.getElementById('userName').value,
-            firstName: document.getElementById('firstName').value,
-            lastName: document.getElementById('lastName').value,
-            Password: document.getElementById('password').value
+            userName: document.getElementById('userName').value.trim(),
+            firstName: document.getElementById('firstName').value.trim(),
+            lastName: document.getElementById('lastName').value.trim(),
+            Password: document.getElementById('password').value.trim()
         };
 
         const response = await fetch(`/api/users/${userData.userId}`, {

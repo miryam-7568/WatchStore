@@ -10,10 +10,10 @@ namespace Business
     public interface IUsersServices
     {
         public bool ValidatePasswordStrength(string password);
-        public User GetUserById(int id);
-        public void Register(User user);
-        public User Login(LoginUser loginUser);
-        public User UpdateUser(int id, User userToUpdate);
+        public Task<User> GetUserById(int id);
+        public Task Register(User user);
+        public Task<User> Login(LoginUser loginUser);
+        public Task<User> UpdateUser(int id, User userToUpdate);
 
     }
 }
