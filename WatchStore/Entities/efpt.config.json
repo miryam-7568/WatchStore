@@ -1,6 +1,6 @@
 ﻿{
-   "CodeGenerationMode": 4,
-   "ContextClassName": "ShopDB_328181300Context",
+   "CodeGenerationMode": 5,
+   "ContextClassName": "ShopDB327742698Context",
    "ContextNamespace": null,
    "FilterSchemas": false,
    "IncludeConnectionString": false,
@@ -16,6 +16,14 @@
    "Tables": [
       {
          "Name": "[dbo].[Categories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Orders]",
          "ObjectType": 0
       },
       {

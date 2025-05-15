@@ -1,5 +1,0 @@
-C:\Users\327742698\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\home.js
-C:\Users\327742698\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\Home.html
-C:\Users\327742698\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\UserDetails.html
-C:\Users\327742698\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\userDetails.js
-C:\Users\327742698\Desktop\WatchStore\WatchStore\WatchStore\wwwroot\userDetails.css

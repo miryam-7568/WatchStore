@@ -12,15 +12,15 @@ namespace Repository
     public class UsersData
         : IUsersData
     {
-        ShopDB_328181300Context _ShopDB_328181300Context;
+        ShopDB327742698Context _ShopDB327742698Context;
 
-        public UsersData(ShopDB_328181300Context shopDB_328181300Context)
+        public UsersData(ShopDB327742698Context shopDB327742698Context)
         {
-            _ShopDB_328181300Context = shopDB_328181300Context;
+            _ShopDB327742698Context = shopDB327742698Context;
         }
         public async Task<User> GetUserByIdFromDB(int id)
         {
-            return await _ShopDB_328181300Context.Users.FirstOrDefaultAsync(user => user.UserId == id);
+            return await _ShopDB327742698Context.Users.FirstOrDefaultAsync(user => user.UserId == id);
 
         }
 
@@ -29,10 +29,10 @@ namespace Repository
         {
             try
             {
-                if (await _ShopDB_328181300Context.Users.AnyAsync(u => u.UserName == user.UserName))
+                if (await _ShopDB327742698Context.Users.AnyAsync(u => u.UserName == user.UserName))
                     throw new CustomApiException(409, "Username is already taken");
-                await _ShopDB_328181300Context.Users.AddAsync(user);
-                await _ShopDB_328181300Context.SaveChangesAsync();
+                await _ShopDB327742698Context.Users.AddAsync(user);
+                await _ShopDB327742698Context.SaveChangesAsync();
             }
             catch (CustomApiException ex)
             {
@@ -46,7 +46,7 @@ namespace Repository
 
         public async Task<User> Login(LoginUser loginUser)
         {
-            return await _ShopDB_328181300Context.Users.FirstOrDefaultAsync(user => user.UserName == loginUser.UserName && user.Password == loginUser.Password);
+            return await _ShopDB327742698Context.Users.FirstOrDefaultAsync(user => user.UserName == loginUser.UserName && user.Password == loginUser.Password);
 
         }
 
@@ -54,8 +54,8 @@ namespace Repository
         {
             try
             {
-                _ShopDB_328181300Context.Update(userToUpdate);
-                await _ShopDB_328181300Context.SaveChangesAsync();
+                _ShopDB327742698Context.Update(userToUpdate);
+                await _ShopDB327742698Context.SaveChangesAsync();
 
                 return userToUpdate;
             }

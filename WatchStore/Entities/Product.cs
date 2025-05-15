@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Entities;
 
+[Index("Id", Name = "IX_Products")]
 public partial class Product
 {
     [Key]
@@ -17,6 +18,7 @@ public partial class Product
     [Column("Category_ID")]
     public int? CategoryId { get; set; }
 
+    [Column("Product_Name")]
     [StringLength(20)]
     public string ProductName { get; set; }
 
@@ -25,10 +27,14 @@ public partial class Product
 
     public double? Price { get; set; }
 
+    [Column("Image_Path")]
     [StringLength(100)]
-    public string ImgPath { get; set; }
+    public string ImagePath { get; set; }
 
     [ForeignKey("CategoryId")]
     [InverseProperty("Products")]
     public virtual Category Category { get; set; }
+
+    [InverseProperty("Product")]
+    public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 }
