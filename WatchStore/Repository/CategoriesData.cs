@@ -23,7 +23,6 @@ namespace Repository
             try
             {
                 return await _ShopDB327742698Context.Categories.ToListAsync();
-
             }
             catch (Exception ex)
             {

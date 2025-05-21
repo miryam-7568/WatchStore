@@ -19,9 +19,9 @@ namespace WatchStore.Controllers
 
         // GET: api/<ProductsController>
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> Get()
+        public async Task<ActionResult<List<Product>>> Get([FromQuery] string? desc, [FromQuery] int? minPrice, [FromQuery] int? maxPrice, [FromQuery] int?[] categoryIds)
         {
-            return await _productsServices.GetProducts();
+            return await _productsServices.GetProducts( desc, minPrice, maxPrice, categoryIds);
         }
 
         // GET api/<ProductsController>/5

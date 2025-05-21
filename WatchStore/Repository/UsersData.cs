@@ -46,8 +46,9 @@ namespace Repository
 
         public async Task<User> Login(LoginUser loginUser)
         {
-            return await _ShopDB327742698Context.Users.FirstOrDefaultAsync(user => user.UserName == loginUser.UserName && user.Password == loginUser.Password);
-
+            var res = await _ShopDB327742698Context.Users.FirstOrDefaultAsync(user => user.UserName == loginUser.UserName && user.Password == loginUser.Password);
+            Console.WriteLine(res);
+            return res;
         }
 
         public async Task<User> UpdateUser(int id, User userToUpdate)

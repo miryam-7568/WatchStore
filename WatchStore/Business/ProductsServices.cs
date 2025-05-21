@@ -16,9 +16,9 @@ namespace Business
             _productsData = productsData;
         }
 
-        public async Task<List<Product>> GetProducts()
+        public async Task<List<Product>> GetProducts(string? desc, int? minPrice, int? maxPrice, int?[] categoryIds)
         {
-            return await _productsData.GetProducts();
+            return await _productsData.GetProducts(desc,  minPrice, maxPrice, categoryIds);
         }
     }
 }

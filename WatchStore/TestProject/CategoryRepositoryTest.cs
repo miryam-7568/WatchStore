@@ -1,9 +1,13 @@
-﻿using System;
+﻿using Entities;
+using Microsoft.EntityFrameworkCore;
+using Moq;
+using Moq.EntityFrameworkCore;
+using Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Entities;
 
 namespace TestProject
 {
@@ -16,6 +20,16 @@ namespace TestProject
             var category2 = new Category { Id = 2, CategoryName = "b" };
             var category3 = new Category { Id = 3, CategoryName = "c" };
             var categories = new List<Category>() {category1, category2, category3 };
+
+
+            var mockContext = new Mock<ShopDB327742698Context>();
+            mockContext.Setup(x => x.Categories).ReturnsDbSet(categories);
+
+            var categoriesData = new CategoriesData(mockContext.Object);
+
+            var res = await categoriesData.GetCategories();
+
+            Assert.Equal(categories, res);
 
         }
     }

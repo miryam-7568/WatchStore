@@ -14,6 +14,9 @@ namespace Repository
             : base(options)
         {
         }
+        public ShopDB327742698Context()
+        {
+        }
 
         public virtual DbSet<Category> Categories { get; set; }
 

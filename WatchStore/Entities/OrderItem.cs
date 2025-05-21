@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 
 namespace Entities;
@@ -24,9 +25,11 @@ public partial class OrderItem
 
     [ForeignKey("OrderId")]
     [InverseProperty("OrderItems")]
+    [JsonIgnore]
     public virtual Order Order { get; set; }
 
     [ForeignKey("ProductId")]
     [InverseProperty("OrderItems")]
+    [JsonIgnore]
     public virtual Product Product { get; set; }
 }
