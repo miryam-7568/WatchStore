@@ -52,3 +52,5 @@ C:\Users\328181300\Desktop\WatchStore\WatchStore\Business\bin\Debug\net9.0\Entit
 C:\Users\328181300\Desktop\WatchStore\WatchStore\Business\bin\Debug\net9.0\Repository.pdb
 C:\Users\328181300\Desktop\WatchStore\WatchStore\Business\obj\Debug\net9.0\Business.csproj.Up2Date
 C:\Users\328181300\Desktop\WatchStore\WatchStore\Business\obj\Debug\net9.0\ref\Business.dll
+C:\Users\327742698\Desktop\WatchStore\WatchStore\Business\bin\Debug\net9.0\DTOs.dll
+C:\Users\327742698\Desktop\WatchStore\WatchStore\Business\bin\Debug\net9.0\DTOs.pdb

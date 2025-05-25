@@ -1,5 +1,7 @@
-﻿using Entities;
+﻿using DTOs;
+using Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +27,7 @@ namespace Repository
         }
 
 
-        public async Task Register(User user)
+        public async Task<User> Register(User user)
         {
             try
             {
@@ -33,6 +35,7 @@ namespace Repository
                     throw new CustomApiException(409, "Username is already taken");
                 await _ShopDB327742698Context.Users.AddAsync(user);
                 await _ShopDB327742698Context.SaveChangesAsync();
+                return user;
             }
             catch (CustomApiException ex)
             {
@@ -44,7 +47,7 @@ namespace Repository
             }
         }
 
-        public async Task<User> Login(LoginUser loginUser)
+        public async Task<User> Login(LoginUserDto loginUser)
         {
             var res = await _ShopDB327742698Context.Users.FirstOrDefaultAsync(user => user.UserName == loginUser.UserName && user.Password == loginUser.Password);
             Console.WriteLine(res);
@@ -55,6 +58,7 @@ namespace Repository
         {
             try
             {
+                userToUpdate.UserId = id;
                 _ShopDB327742698Context.Update(userToUpdate);
                 await _ShopDB327742698Context.SaveChangesAsync();
 

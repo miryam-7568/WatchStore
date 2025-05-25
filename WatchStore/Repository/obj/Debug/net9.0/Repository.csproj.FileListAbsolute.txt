@@ -46,3 +46,5 @@ C:\Users\328181300\Desktop\WatchStore\WatchStore\Repository\bin\Debug\net9.0\Ent
 C:\Users\328181300\Desktop\WatchStore\WatchStore\Repository\bin\Debug\net9.0\Entities.pdb
 C:\Users\328181300\Desktop\WatchStore\WatchStore\Repository\obj\Debug\net9.0\Repository.csproj.Up2Date
 C:\Users\328181300\Desktop\WatchStore\WatchStore\Repository\obj\Debug\net9.0\ref\Repository.dll
+C:\Users\327742698\Desktop\WatchStore\WatchStore\Repository\bin\Debug\net9.0\DTOs.dll
+C:\Users\327742698\Desktop\WatchStore\WatchStore\Repository\bin\Debug\net9.0\DTOs.pdb

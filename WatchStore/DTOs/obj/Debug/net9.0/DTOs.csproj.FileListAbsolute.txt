@@ -1,0 +1,13 @@
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\bin\Debug\net9.0\DTOs.deps.json
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\bin\Debug\net9.0\DTOs.dll
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\bin\Debug\net9.0\DTOs.pdb
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\obj\Debug\net9.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\obj\Debug\net9.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\obj\Debug\net9.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\obj\Debug\net9.0\DTOs.AssemblyInfo.cs
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\obj\Debug\net9.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\obj\Debug\net9.0\DTOs.sourcelink.json
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\obj\Debug\net9.0\DTOs.dll
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\obj\Debug\net9.0\refint\DTOs.dll
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\obj\Debug\net9.0\DTOs.pdb
+C:\Users\327742698\Desktop\WatchStore\WatchStore\DTOs\obj\Debug\net9.0\ref\DTOs.dll

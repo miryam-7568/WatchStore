@@ -13,7 +13,7 @@ builder.Services.AddScoped<IOrdersData, OrdersData>();
 builder.Services.AddScoped<ICategoriesServices, CategoriesServices>();
 builder.Services.AddScoped<IProductsServices, ProductsServices>();
 builder.Services.AddScoped<IOrdersServices, OrdersServices>();
-
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddDbContext<ShopDB327742698Context>(options =>
     options.UseSqlServer("Data Source=SRV2\\PUPILS;Initial Catalog=ShopDB327742698;Integrated Security=True; TrustServerCertificate=True"));

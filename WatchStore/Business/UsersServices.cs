@@ -1,4 +1,7 @@
-﻿using Entities;
+﻿using AutoMapper;
+using DTOs;
+using Entities;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Repository;
 using System;
 using System.Collections.Generic;
@@ -12,43 +15,51 @@ namespace Business
         : IUsersServices
     {
         IUsersData _usersData;
+        private readonly IMapper _mapper;
 
-        public UsersServices(IUsersData usersData)
+        public UsersServices(IUsersData usersData, IMapper mapper)
         {
             this._usersData = usersData;
+            _mapper = mapper;
         }
         public bool ValidatePasswordStrength(string password)
         {
             var zxcvbnResult = Zxcvbn.Core.EvaluatePassword(password);
-            return zxcvbnResult.Score >= 3;  // סיסמה נחשבת לחזקה אם היא מקבלת דירוג של 3 או יותר
+            return zxcvbnResult.Score >= 3; 
         }
 
-        public async Task<User> GetUserById(int id)
+        public async Task<UserDto> GetUserById(int id)
         {
             User user = await _usersData.GetUserByIdFromDB(id);
-            return user;
+            return _mapper.Map<UserDto>(user);
         }
-        public async Task Register(User user)
+        public async Task<UserDto> Register(RegisterUserDto registerUserDto)
         {
-            if (ValidatePasswordStrength(user.Password))
+            if (ValidatePasswordStrength(registerUserDto.Password))
             {
-                 await _usersData.Register(user);
+                User user = _mapper.Map<User>(registerUserDto);
+                await _usersData.Register(user);
+                UserDto userDto = _mapper.Map<UserDto>(user);
+                return userDto;
             }
             else
             {
                 throw new CustomApiException(400, "password not strong enough");
             }
         }
-        public async Task<User> Login(LoginUser loginUser)
+        public async Task<UserDto> Login(LoginUserDto loginUser)
         {
-            return await _usersData.Login(loginUser);
+            User user= await _usersData.Login(loginUser);
+            return _mapper.Map<UserDto>(user);
         }
 
-        public async Task<User> UpdateUser(int id, User userToUpdate)
+        public async Task<UserDto> UpdateUser(int id, RegisterUserDto userToUpdate)
         {
             if (ValidatePasswordStrength(userToUpdate.Password))
             {
-                return await _usersData.UpdateUser(id, userToUpdate);
+                User user = _mapper.Map<User>(userToUpdate);
+                User updatedUser = await _usersData.UpdateUser(id, user);
+                return _mapper.Map<UserDto>(updatedUser);
             }
             else
             {

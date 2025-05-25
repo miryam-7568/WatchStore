@@ -21,8 +21,7 @@ namespace Repository
         {
             try
             {
-                return await _ShopDB327742698Context.Orders.ToListAsync();
-
+                return await _ShopDB327742698Context.Orders.Include(o=>o.OrderItems).ToListAsync();
             }
             catch (Exception ex)
             {

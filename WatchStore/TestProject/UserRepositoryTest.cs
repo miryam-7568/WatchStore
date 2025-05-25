@@ -1,4 +1,5 @@
-﻿using Entities;
+﻿using DTOs;
+using Entities;
 using Moq;
 using Moq.EntityFrameworkCore;
 using Repository;
@@ -96,7 +97,7 @@ namespace TestProject
 
             var usersData = new UsersData(mockContext.Object);
 
-            var loginUser = new LoginUser { UserName = "testuser", Password = "password" };
+            var loginUser = new LoginUserDto ("testuser", "password");
 
             // Act
             var result = await usersData.Login(loginUser);
@@ -117,7 +118,7 @@ namespace TestProject
 
             var usersData = new UsersData(mockContext.Object);
 
-            var loginUser = new LoginUser { UserName = "wronguser", Password = "wrongpassword" };
+            var loginUser = new LoginUserDto ( "wronguser", "wrongpassword" );
 
             // Act
             var result = await usersData.Login(loginUser);

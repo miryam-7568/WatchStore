@@ -21,7 +21,7 @@ namespace Repository
         {
             try
             {
-                var query = _ShopDB327742698Context.Products.Where(product =>
+                var query = _ShopDB327742698Context.Products.Include(product=>product.Category).Where(product =>
                 (desc == null ? (true) : (product.Description.Contains(desc)))
                 && ((minPrice == null) ? (true) : (product.Price >= minPrice))
                 && ((maxPrice == null) ? (true) : (product.Price <= maxPrice))

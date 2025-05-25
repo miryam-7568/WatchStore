@@ -1,4 +1,5 @@
 ﻿using Business;
+using DTOs;
 using Entities;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -12,24 +13,24 @@ namespace WatchStore.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        IUsersServices usersServices;
+        IUsersServices _usersServices;
         public UsersController(IUsersServices usersServices)
         {
-            this.usersServices = usersServices;
+            this._usersServices = usersServices;
         }
 
         // GET: api/<UsersController>
-        [HttpGet]
-        public IEnumerable<User> Get()
-        {
-            return null;//users;
-        }
+        //[HttpGet]
+        //public IEnumerable<User> Get()
+        //{
+        //    return null;//users;
+        //}
 
         // GET api/<UsersController>/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>>  Get(int id)
+        public async Task<ActionResult<UserDto>>  Get(int id)
         {
-            User user = await usersServices.GetUserById(id);
+            UserDto user = await _usersServices.GetUserById(id);
             if (user != null)
             {
                 return Ok(user);
@@ -43,34 +44,33 @@ namespace WatchStore.Controllers
         // POST api/<UsersController>
 
         [HttpPost("register")]
-        public async Task<ActionResult<User>> Register([FromBody] User user)
+        public async Task<ActionResult<UserDto>> Register([FromBody] RegisterUserDto registerUserDto)
         {
-            if (user is null)
+            if (registerUserDto is null)
                 return StatusCode(400, "user is required");
 
-            if (string.IsNullOrEmpty(user.Password) || string.IsNullOrEmpty(user.UserName))
+            if (string.IsNullOrEmpty(registerUserDto.Password) || string.IsNullOrEmpty(registerUserDto.UserName))
                 return StatusCode(400, "Password and UserName are required");
             try
             {
-                await usersServices.Register(user);
-                return CreatedAtAction(nameof(Get), new { id = user.UserId }, user);
+                UserDto userDto = await _usersServices.Register(registerUserDto);
+                return CreatedAtAction(nameof(Get), new { id = userDto.UserId }, userDto);
             }
             catch(CustomApiException ex)
             {
-                //Console.WriteLine(ex.Message);
                 return StatusCode(ex.StatusCode, new { message = ex.Message });
             }
 
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult<User>> login([FromBody] LoginUser loginUser)
+        public async Task<ActionResult<UserDto>> login([FromBody] LoginUserDto loginUser)
         {
             if (string.IsNullOrEmpty(loginUser?.Password) || string.IsNullOrEmpty(loginUser?.UserName))
                 return BadRequest(new { error = "Username and password are required." });
             try
             {
-                User user = await usersServices.Login(loginUser);
+                UserDto user = await _usersServices.Login(loginUser);
                 return Ok(user);
             }
             catch (CustomApiException ex)
@@ -81,11 +81,11 @@ namespace WatchStore.Controllers
         
         // PUT api/<UsersController>/5
         [HttpPut("{id}")]
-        public async Task<ActionResult<User>> Put(int id, [FromBody] User userToUpdate)
+        public async Task<ActionResult<UserDto>> Put(int id, [FromBody] RegisterUserDto userToUpdate)
         {
             try
             {
-                User user = await usersServices.UpdateUser(id, userToUpdate);
+                UserDto user = await _usersServices.UpdateUser(id, userToUpdate);
                 return Ok(user);
             }
             catch (CustomApiException ex)
@@ -95,9 +95,9 @@ namespace WatchStore.Controllers
         }
 
         // DELETE api/<UsersController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
     }
 }
