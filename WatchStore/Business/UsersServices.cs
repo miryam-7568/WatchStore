@@ -22,7 +22,7 @@ namespace Business
             this._usersData = usersData;
             _mapper = mapper;
         }
-        public bool ValidatePasswordStrength(string password)
+        private bool ValidatePasswordStrength(string password)
         {
             var zxcvbnResult = Zxcvbn.Core.EvaluatePassword(password);
             return zxcvbnResult.Score >= 3; 

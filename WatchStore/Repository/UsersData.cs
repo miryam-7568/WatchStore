@@ -59,6 +59,12 @@ namespace Repository
             try
             {
                 userToUpdate.UserId = id;
+                //
+                var existingUser = await _ShopDB327742698Context.Users.FindAsync(id);
+                if (existingUser != null)
+                {
+                    _ShopDB327742698Context.Entry(existingUser).State = EntityState.Detached;
+                }
                 _ShopDB327742698Context.Update(userToUpdate);
                 await _ShopDB327742698Context.SaveChangesAsync();
 

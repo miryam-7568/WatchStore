@@ -1,4 +1,6 @@
-﻿using Entities;
+﻿using AutoMapper;
+using DTOs;
+using Entities;
 using Moq;
 using Moq.EntityFrameworkCore;
 using Repository;
@@ -10,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace TestProject
 {
-    public class ProductRepositoryTest
+    public class ProductRepositoryUnitTest
     {
         [Fact]
         public async Task GetProducts_ReturnsFilteredProducts()

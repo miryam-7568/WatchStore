@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace TestProject
 {
-    public class OrderRepositoryTest
+    public class OrderRepositoryUnitTest
     {
         [Fact]
         public async Task GetOrders_ReturnsOrders()

@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace TestProject
 {
-    public class CategoryRepositoryTest
+    public class CategoryRepositoryUnitTest
     {
         [Fact]
         public async Task GetCategories_returnsCategories()

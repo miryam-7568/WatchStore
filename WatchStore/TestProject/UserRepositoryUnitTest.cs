@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace TestProject
 {
-    public class UserRepositoryTest
+    public class UserRepositoryUnitTest
     {
         [Fact]
         public async Task GetUserByIdFromDB_ReturnsUser_WhenUserExists()
