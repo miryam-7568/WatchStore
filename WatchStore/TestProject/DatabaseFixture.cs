@@ -1,5 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Repository;
+using System;
+using System.IO;
 
 namespace TestProject
 {
@@ -9,17 +12,23 @@ namespace TestProject
 
         public DatabaseFixture()
         {
-            // Set up the test database connection and initialize the context
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            var connectionString = configuration.GetConnectionString("TestDatabase");
+
             var options = new DbContextOptionsBuilder<ShopDB327742698Context>()
-                .UseSqlServer("Server=srv2\\pupils;Database=Tests327742698;Trusted_Connection=True;Integrated Security=True; TrustServerCertificate=True;")
+                .UseSqlServer(connectionString)
                 .Options;
+
             Context = new ShopDB327742698Context(options);
-            Context.Database.EnsureCreated();// create the data base
+            Context.Database.EnsureCreated();
         }
 
         public void Dispose()
         {
-            // Clean up the test database after all tests are completed
             Context.Database.EnsureDeleted();
             Context.Dispose();
         }

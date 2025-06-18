@@ -14,9 +14,11 @@ namespace WatchStore.Controllers
     public class UsersController : ControllerBase
     {
         IUsersServices _usersServices;
+        
         public UsersController(IUsersServices usersServices)
         {
             this._usersServices = usersServices;
+           
         }
 
         // GET: api/<UsersController>
@@ -71,10 +73,12 @@ namespace WatchStore.Controllers
             try
             {
                 UserDto user = await _usersServices.Login(loginUser);
+               
                 return Ok(user);
             }
             catch (CustomApiException ex)
             {
+               
                 return StatusCode(ex.StatusCode, new { message = ex.Message });
             }
         }

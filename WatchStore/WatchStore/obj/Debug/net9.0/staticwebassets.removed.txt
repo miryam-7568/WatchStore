@@ -1,0 +1,5 @@
+C:\Users\ettyk\Desktop\Elisheva-c#\WatchStore\WatchStore\WatchStore\wwwroot\home.js
+C:\Users\ettyk\Desktop\Elisheva-c#\WatchStore\WatchStore\WatchStore\wwwroot\Home.html
+C:\Users\ettyk\Desktop\Elisheva-c#\WatchStore\WatchStore\WatchStore\wwwroot\UserDetails.html
+C:\Users\ettyk\Desktop\Elisheva-c#\WatchStore\WatchStore\WatchStore\wwwroot\userDetails.js
+C:\Users\ettyk\Desktop\Elisheva-c#\WatchStore\WatchStore\WatchStore\wwwroot\userDetails.css

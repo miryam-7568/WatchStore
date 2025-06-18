@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2LyFsoMphmFsQpw52u0FCKz7lD6mKns8+vFspolYEIo=",
+  "Hash": "qkd3VagTtrboucXOwonFsOmFTx0I/VTfrcolPRo8e90=",
   "Source": "WatchStore",
   "BasePath": "_content/WatchStore",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WatchStore\\wwwroot",
       "Source": "WatchStore",
-      "ContentRoot": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
       "BasePath": "_content/WatchStore",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-g8pprrg6q1.gz",
+      "Identity": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-g8pprrg6q1.gz",
       "SourceId": "WatchStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WatchStore",
       "RelativePath": "home#[.{fingerprint=g8pprrg6q1}]?.js.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
+      "RelatedAsset": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "bk0f2pvmkn",
       "Integrity": "m2a0OQB4v+F/7zqLs7rSmCHGf9o5GazXRGJpl6BJPnQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js"
+      "OriginalItemSpec": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js"
     },
     {
-      "Identity": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
+      "Identity": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
       "SourceId": "WatchStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WatchStore",
       "RelativePath": "Home#[.{fingerprint=2ksfg9pmjp}]?.html.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\Home.html",
+      "RelatedAsset": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\Home.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "q1ffgu0p7u",
       "Integrity": "En4YPMP3SSLvfDbPIovzhkSFNnsOVqXUF3vgvosiJIs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\Home.html"
+      "OriginalItemSpec": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\Home.html"
     },
     {
-      "Identity": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-5sdiia5mgh.gz",
+      "Identity": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-5sdiia5mgh.gz",
       "SourceId": "WatchStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WatchStore",
       "RelativePath": "UserDetails#[.{fingerprint=5sdiia5mgh}]?.html.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
+      "RelatedAsset": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "a9bjk5ll0p",
       "Integrity": "vhfPmPrRvk8kvfTQUYCPqsreBeCEwom5axg4ZV/Wl8Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html"
+      "OriginalItemSpec": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html"
     },
     {
-      "Identity": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-527lvfycwa.gz",
+      "Identity": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-527lvfycwa.gz",
       "SourceId": "WatchStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WatchStore",
       "RelativePath": "userDetails#[.{fingerprint=527lvfycwa}]?.js.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
+      "RelatedAsset": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "4mx5vnv3bv",
       "Integrity": "bCTI6E5irQAb8/JsV8lMcAvXMlifCa0dspq1HB59FHE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.js"
+      "OriginalItemSpec": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.js"
     },
     {
-      "Identity": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-u9tdccnrvx.gz",
+      "Identity": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-u9tdccnrvx.gz",
       "SourceId": "WatchStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WatchStore",
       "RelativePath": "userDetails#[.{fingerprint=u9tdccnrvx}]?.css.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
+      "RelatedAsset": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "4q4gxnbprt",
       "Integrity": "7Oh2ZvLtzl5YtADoCMgh+LC7zPwsfVHdr0Cb2mDfqHg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.css"
+      "OriginalItemSpec": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.css"
     },
     {
-      "Identity": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\Home.html",
+      "Identity": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\Home.html",
       "SourceId": "WatchStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
       "BasePath": "_content/WatchStore",
       "RelativePath": "Home#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\Home.html"
     },
     {
-      "Identity": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
+      "Identity": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
       "SourceId": "WatchStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
       "BasePath": "_content/WatchStore",
       "RelativePath": "home#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\home.js"
     },
     {
-      "Identity": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
+      "Identity": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
       "SourceId": "WatchStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
       "BasePath": "_content/WatchStore",
       "RelativePath": "userDetails#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\userDetails.css"
     },
     {
-      "Identity": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
+      "Identity": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
       "SourceId": "WatchStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
       "BasePath": "_content/WatchStore",
       "RelativePath": "UserDetails#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\UserDetails.html"
     },
     {
-      "Identity": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
+      "Identity": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
       "SourceId": "WatchStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\",
       "BasePath": "_content/WatchStore",
       "RelativePath": "userDetails#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -230,7 +230,7 @@
   "Endpoints": [
     {
       "Route": "Home.2ksfg9pmjp.html",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -253,7 +253,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -293,7 +293,7 @@
     },
     {
       "Route": "Home.2ksfg9pmjp.html",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\Home.html",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\Home.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -314,7 +314,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -338,7 +338,7 @@
     },
     {
       "Route": "Home.2ksfg9pmjp.html.gz",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -359,7 +359,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -391,7 +391,7 @@
     },
     {
       "Route": "home.g8pprrg6q1.js",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-g8pprrg6q1.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-g8pprrg6q1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -414,7 +414,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -454,7 +454,7 @@
     },
     {
       "Route": "home.g8pprrg6q1.js",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -475,7 +475,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -499,7 +499,7 @@
     },
     {
       "Route": "home.g8pprrg6q1.js.gz",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-g8pprrg6q1.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-g8pprrg6q1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -520,7 +520,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -552,7 +552,7 @@
     },
     {
       "Route": "Home.html",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -575,7 +575,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -607,7 +607,7 @@
     },
     {
       "Route": "Home.html",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\Home.html",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\Home.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -628,7 +628,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -644,7 +644,7 @@
     },
     {
       "Route": "Home.html.gz",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\gj9j77xx8t-2ksfg9pmjp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -665,7 +665,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -689,7 +689,7 @@
     },
     {
       "Route": "home.js",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-g8pprrg6q1.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-g8pprrg6q1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -712,7 +712,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -744,7 +744,7 @@
     },
     {
       "Route": "home.js",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\home.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -765,7 +765,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -781,7 +781,7 @@
     },
     {
       "Route": "home.js.gz",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-g8pprrg6q1.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\9nszfhvvpw-g8pprrg6q1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -802,7 +802,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -826,7 +826,7 @@
     },
     {
       "Route": "userDetails.527lvfycwa.js",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-527lvfycwa.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-527lvfycwa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -849,7 +849,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -889,7 +889,7 @@
     },
     {
       "Route": "userDetails.527lvfycwa.js",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -910,7 +910,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -934,7 +934,7 @@
     },
     {
       "Route": "userDetails.527lvfycwa.js.gz",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-527lvfycwa.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-527lvfycwa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -955,7 +955,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -987,7 +987,7 @@
     },
     {
       "Route": "UserDetails.5sdiia5mgh.html",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-5sdiia5mgh.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-5sdiia5mgh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1010,7 +1010,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1050,7 +1050,7 @@
     },
     {
       "Route": "UserDetails.5sdiia5mgh.html",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1071,7 +1071,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1095,7 +1095,7 @@
     },
     {
       "Route": "UserDetails.5sdiia5mgh.html.gz",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-5sdiia5mgh.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-5sdiia5mgh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1116,7 +1116,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1148,7 +1148,7 @@
     },
     {
       "Route": "userDetails.css",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-u9tdccnrvx.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-u9tdccnrvx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1171,7 +1171,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1203,7 +1203,7 @@
     },
     {
       "Route": "userDetails.css",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1224,7 +1224,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1240,7 +1240,7 @@
     },
     {
       "Route": "userDetails.css.gz",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-u9tdccnrvx.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-u9tdccnrvx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1261,7 +1261,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1285,7 +1285,7 @@
     },
     {
       "Route": "UserDetails.html",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-5sdiia5mgh.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-5sdiia5mgh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1308,7 +1308,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1340,7 +1340,7 @@
     },
     {
       "Route": "UserDetails.html",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\UserDetails.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1361,7 +1361,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1377,7 +1377,7 @@
     },
     {
       "Route": "UserDetails.html.gz",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-5sdiia5mgh.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\m8w4bqpieh-5sdiia5mgh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1398,7 +1398,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1422,7 +1422,7 @@
     },
     {
       "Route": "userDetails.js",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-527lvfycwa.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-527lvfycwa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1445,7 +1445,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1477,7 +1477,7 @@
     },
     {
       "Route": "userDetails.js",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1498,7 +1498,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1514,7 +1514,7 @@
     },
     {
       "Route": "userDetails.js.gz",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-527lvfycwa.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\p4i6rq1g12-527lvfycwa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1535,7 +1535,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1559,7 +1559,7 @@
     },
     {
       "Route": "userDetails.u9tdccnrvx.css",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-u9tdccnrvx.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-u9tdccnrvx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1582,7 +1582,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1622,7 +1622,7 @@
     },
     {
       "Route": "userDetails.u9tdccnrvx.css",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\wwwroot\\userDetails.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1643,7 +1643,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1667,7 +1667,7 @@
     },
     {
       "Route": "userDetails.u9tdccnrvx.css.gz",
-      "AssetFile": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-u9tdccnrvx.gz",
+      "AssetFile": "C:\\Users\\ettyk\\Desktop\\Elisheva-c#\\WatchStore\\WatchStore\\WatchStore\\obj\\Debug\\net9.0\\compressed\\w5ed8cid1o-u9tdccnrvx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1688,7 +1688,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 11:57:49 GMT"
+          "Value": "Wed, 18 Jun 2025 11:11:31 GMT"
         },
         {
           "Name": "Cache-Control",

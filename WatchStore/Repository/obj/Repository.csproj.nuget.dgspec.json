@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Repository\\Repository.csproj": {}
+    "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\DTOs\\DTOs.csproj": {
+    "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\DTOs\\DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\DTOs\\DTOs.csproj",
+        "projectUniqueName": "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\DTOs\\DTOs.csproj",
         "projectName": "DTOs",
-        "projectPath": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\DTOs\\DTOs.csproj",
-        "packagesPath": "C:\\Users\\327742698\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\DTOs\\obj\\",
+        "projectPath": "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\DTOs\\DTOs.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\DTOs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\327742698\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,24 +71,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Entities\\Entities.csproj": {
+    "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\327742698\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Entities\\obj\\",
+        "projectPath": "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\327742698\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -98,7 +97,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -148,24 +146,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Repository\\Repository.csproj": {
+    "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Repository\\Repository.csproj",
+        "projectUniqueName": "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\327742698\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Repository\\obj\\",
+        "projectPath": "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\327742698\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -174,18 +172,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\DTOs\\DTOs.csproj": {
-                "projectPath": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\DTOs\\DTOs.csproj"
+              "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\DTOs\\DTOs.csproj": {
+                "projectPath": "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\DTOs\\DTOs.csproj"
               },
-              "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\327742698\\Desktop\\WatchStore\\WatchStore\\Entities\\Entities.csproj"
+              "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\אלישבע קלור\\Elisheva-c#\\WatchStore\\WatchStore\\Entities\\Entities.csproj"
               }
             }
           }
@@ -209,6 +206,18 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "NLog.MailKit": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.0, )"
             }
           },
           "imports": [
@@ -227,7 +236,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

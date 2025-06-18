@@ -1,5 +1,6 @@
 using Business;
 using Microsoft.EntityFrameworkCore;
+using NLog.Web;
 using Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,8 +16,13 @@ builder.Services.AddScoped<IProductsServices, ProductsServices>();
 builder.Services.AddScoped<IOrdersServices, OrdersServices>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+builder.Host.UseNLog();
+
 builder.Services.AddDbContext<ShopDB327742698Context>(options =>
-    options.UseSqlServer("Data Source=SRV2\\PUPILS;Initial Catalog=ShopDB327742698;Integrated Security=True; TrustServerCertificate=True"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("HomeConnection")));
+
+//builder.Services.AddDbContext<ShopDB327742698Context>(options =>
+//    options.UseSqlServer("Data Source=SRV2\\PUPILS;Initial Catalog=ShopDB327742698;Integrated Security=True; TrustServerCertificate=True"));
 
 
 builder.Services.AddControllers();

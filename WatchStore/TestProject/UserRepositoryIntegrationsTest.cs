@@ -100,5 +100,30 @@ namespace TestProject
             Assert.NotNull(savedUser);
             Assert.Equal("NewFirstName", savedUser.FirstName);
         }
+
+
+        [Fact]
+        public async Task GetUserByIdFromDB_ReturnsCorrectUser()
+        {
+            // Arrange
+            var user = new User
+            {
+                UserName = "getuserbyid",
+                Password = "somepassword",
+                FirstName = "Get",
+                LastName = "User"
+            };
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+
+            // Act
+            var result = await _usersData.GetUserByIdFromDB(user.UserId);
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal("getuserbyid", result.UserName);
+            Assert.Equal("Get", result.FirstName);
+        }
+
     }
 }
