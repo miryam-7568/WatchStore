@@ -11,6 +11,7 @@ namespace WatchStore.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
+        //delete unused code
         IOrdersServices _ordersServices;
 
         public OrdersController(IOrdersServices ordersServices)

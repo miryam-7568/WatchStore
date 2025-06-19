@@ -38,8 +38,8 @@ namespace Business
             if (ValidatePasswordStrength(registerUserDto.Password))
             {
                 User user = _mapper.Map<User>(registerUserDto);
-                await _usersData.Register(user);
-                UserDto userDto = _mapper.Map<UserDto>(user);
+                var newUser = await _usersData.Register(user);// - the created user with the id
+                UserDto userDto = _mapper.Map<UserDto>(newUser);
                 return userDto;
             }
             else

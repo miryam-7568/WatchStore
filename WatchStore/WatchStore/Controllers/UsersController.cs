@@ -16,9 +16,10 @@ namespace WatchStore.Controllers
         IUsersServices _usersServices;
         public UsersController(IUsersServices usersServices)
         {
-            this._usersServices = usersServices;
+            _usersServices = usersServices;
         }
-
+        //delete unused code
+        
         // GET: api/<UsersController>
         //[HttpGet]
         //public IEnumerable<User> Get()
@@ -64,7 +65,7 @@ namespace WatchStore.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult<UserDto>> login([FromBody] LoginUserDto loginUser)
+        public async Task<ActionResult<UserDto>> Login([FromBody] LoginUserDto loginUser)
         {
             if (string.IsNullOrEmpty(loginUser?.Password) || string.IsNullOrEmpty(loginUser?.UserName))
                 return BadRequest(new { error = "Username and password are required." });

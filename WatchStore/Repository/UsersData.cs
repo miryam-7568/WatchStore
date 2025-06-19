@@ -50,7 +50,7 @@ namespace Repository
         public async Task<User> Login(LoginUserDto loginUser)
         {
             var res = await _ShopDB327742698Context.Users.FirstOrDefaultAsync(user => user.UserName == loginUser.UserName && user.Password == loginUser.Password);
-            Console.WriteLine(res);
+            Console.WriteLine(res);//
             return res;
         }
 

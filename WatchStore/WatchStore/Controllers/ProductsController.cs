@@ -11,6 +11,8 @@ namespace WatchStore.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+
+        //delete unused code
         private readonly IProductsServices _productsServices;
 
         public ProductsController(IProductsServices productsServices)
